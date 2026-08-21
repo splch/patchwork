@@ -1,11 +1,13 @@
-# Publish the ROM as a GitHub release on version tags (v*).
-# The remote tracks only the ROM-build set (no test harness), so this
-# workflow builds, checks reproducibility (clean rebuilds must be
-# byte-identical, PLAN.md sec 8), and attaches the ROM + checksum.
+# Publish the ROM as a GitHub release on every push to main (tagged
+# r<run-number>) and on manual version tags (v*). The remote tracks only
+# the ROM-build set (no test harness), so this workflow builds, checks
+# reproducibility (clean rebuilds must be byte-identical, PLAN.md sec 8),
+# and attaches the ROM + checksum.
 # workflow_dispatch is the dry run: build + artifact, no release.
 name: release
 on:
   push:
+    branches: [main]
     tags: ["v*"]
   workflow_dispatch:
 
@@ -41,12 +43,13 @@ jobs:
             bin/patchwork.sym
             bin/patchwork.map
       - name: Publish release
-        if: github.ref_type == 'tag'
+        if: github.event_name == 'push'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" \
-            --verify-tag \
-            --title "PATCHWORK $GITHUB_REF_NAME" \
-            --notes "Built with RGBDS 1.0.3; clean rebuilds verified byte-identical. ROM SHA-256: $(cut -d' ' -f1 bin/patchwork.sha256)" \
+          if [ "$GITHUB_REF_TYPE" = "tag" ]; then TAG="$GITHUB_REF_NAME"; else TAG="r$GITHUB_RUN_NUMBER"; fi
+          gh release create "$TAG" \
+            --target "$GITHUB_SHA" \
+            --title "PATCHWORK $TAG" \
+            --notes "Automated build of ${GITHUB_SHA:0:7}. Built with RGBDS 1.0.3; clean rebuilds verified byte-identical. ROM SHA-256: $(cut -d' ' -f1 bin/patchwork.sha256)" \
             bin/patchwork.gb bin/patchwork.sha256
