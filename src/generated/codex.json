@@ -1,0 +1,804 @@
+{
+"entries": [
+{
+"cite": [
+"FOWLER ET AL - ARXIV",
+"1208.0928 V1 2012   ",
+"                    "
+],
+"game": [
+"EACH NODE IS A DATA ",
+"QUBIT. EACH GLYPH IS",
+"A CHECK MEASURED    ",
+"EVERY ROUND BY A    ",
+"REAL CIRCUIT.       "
+],
+"label2": 0,
+"quote": [
+"...STABILIZERS      ",
+"ACTING ON A         ",
+"TWO-DIMENSIONAL     ",
+"ARRAY OF PHYSICAL   ",
+"QUBITS...           ",
+"                    "
+],
+"title": "THE WALL",
+"unlock": 255
+},
+{
+"cite": [
+"THIS CART - 6000    ",
+"PINNED CASES VS THE ",
+"REFERENCE SIM       "
+],
+"game": [
+"A SPARK IS A CHECK  ",
+"OUTCOME THAT CHANGED",
+"SINCE LAST ROUND.   ",
+"NOTHING ON THIS     ",
+"BOARD IS SCRIPTED.  "
+],
+"label2": 2,
+"quote": [
+"EVERY SPARK COMES   ",
+"THROUGH THE FULL    ",
+"EXTRACTION CIRCUIT -",
+"PINNED BIT-FOR-BIT  ",
+"TO A REFERENCE SIM. ",
+"                    "
+],
+"title": "THE SPARKS",
+"unlock": 12
+},
+{
+"cite": [
+"PATCHWORK DESIGN    ",
+"RULE - SEE THE      ",
+"AUTOPILOT CARD      "
+],
+"game": [
+"PATCHES ARE CHAINS  ",
+"OF REAL PAULI FIXES.",
+"EACH TILE COSTS     ",
+"CLOCK - SHORT       ",
+"PATCHES WIN.        "
+],
+"label2": 1,
+"quote": [
+"THE CLOCK IS THE    ",
+"WEIGHT FUNCTION OF A",
+"MATCHING DECODER.   ",
+"YOU ARE PAYING WHAT ",
+"THE ALGORITHM PAYS. ",
+"                    "
+],
+"title": "THE PATCH",
+"unlock": 0
+},
+{
+"cite": [
+"THIS CART - VERDICT ",
+"RULES PINNED IN THE ",
+"TEST SUITE          "
+],
+"game": [
+"TWO PATCHES THAT    ",
+"DIFFER BY A CLOSED  ",
+"LOOP ARE THE SAME   ",
+"FIX. NEITHER IS     ",
+"PUNISHED.           "
+],
+"label2": 2,
+"quote": [
+"A RESIDUAL TIMES ANY",
+"CHECK PRODUCT GETS  ",
+"THE SAME VERDICT -  ",
+"ASSERTED BY THIS    ",
+"CARTS TEST SUITE    ",
+"EVERY BUILD.        "
+],
+"title": "DEGENERACY",
+"unlock": 1
+},
+{
+"cite": [
+"DENNIS ET AL - ARXIV",
+"QUANT-PH 0110143 V1 ",
+"2001                "
+],
+"game": [
+"YOU LOSE WHEN DAMAGE",
+"PLUS PATCHES CHAINS ",
+"WALL TO WALL. THAT  ",
+"IS A LOGICAL ERROR. ",
+"                    "
+],
+"label2": 0,
+"quote": [
+"ENCODED QUANTUM     ",
+"OPERATIONS ARE      ",
+"ASSOCIATED WITH     ",
+"NONTRIVIAL HOMOLOGY ",
+"CYCLES OF THE       ",
+"SURFACE.            "
+],
+"title": "THE CRACK",
+"unlock": 3
+},
+{
+"cite": [
+"THIS CART - FAULT   ",
+"MECHANISMS FROM THE ",
+"REAL CIRCUITS       "
+],
+"game": [
+"A LIE SPARKS ONCE   ",
+"AND UNSPARKS NEXT   ",
+"ROUND - NO DAMAGE.  ",
+"HOLD SELECT TO LOOK ",
+"BACK.               "
+],
+"label2": 2,
+"quote": [
+"IN THE FAULT TABLES ",
+"A LIE IS A PURE TIME",
+"EDGE - TWO FLIPS OF ",
+"ONE CHECK AND AN    ",
+"EMPTY RESIDUAL.     ",
+"                    "
+],
+"title": "SPARKS THAT LIE",
+"unlock": 5
+},
+{
+"cite": [
+"AN ASSUMPTION THIS  ",
+"GAME DROPS - ARXIV  ",
+"QUANT-PH 0110143 V1 "
+],
+"game": [
+"ROUNDS ARRIVE WHILE ",
+"YOU DECIDE. TOO MUCH",
+"BACKLOG AND THE WALL",
+"FALLS - REAL        ",
+"DECODERS FIGHT THIS."
+],
+"label2": 0,
+"quote": [
+"...POLYNOMIAL-SIZE  ",
+"CLASSICAL           ",
+"COMPUTATIONS CAN BE ",
+"EXECUTED            ",
+"INSTANTANEOUSLY.    ",
+"                    "
+],
+"title": "THE CLOCK",
+"unlock": 2
+},
+{
+"cite": [
+"DELFOSSE-NICKERSON -",
+"ARXIV 1709.06218 V1 ",
+"2017                "
+],
+"game": [
+"A DARK SOCKET IS A  ",
+"HERALDED LOSS - YOU ",
+"KNOW WHERE BUT NOT  ",
+"WHAT. KNOWN PLACES  ",
+"ARE WORTH DOUBLE.   "
+],
+"label2": 0,
+"quote": [
+"...PERFORMS         ",
+"OPTIMALLY FOR ERRORS",
+"OF WEIGHT UP TO ... ",
+"AND FOR LOSS OF UP  ",
+"TO D-1 QUBITS...    ",
+"                    "
+],
+"title": "THE HERALD",
+"unlock": 11
+},
+{
+"cite": [
+"THIS CART - VERDICT ",
+"BASIS RULES IN THE  ",
+"TEST SUITE          "
+],
+"game": [
+"CASH-OUT READS THE  ",
+"PROTECTED BIT. CLEAN",
+"WALL FIRST - ONLY   ",
+"THE MEASURED BASIS  ",
+"KILLS.              "
+],
+"label2": 2,
+"quote": [
+"A LEFTOVER Z ON A   ",
+"Z-MEMORY IS NOT A   ",
+"FAILURE. THE SUITE  ",
+"ASSERTS THE BASIS   ",
+"RULE ON EVERY BUILD.",
+"                    "
+],
+"title": "THE READOUT",
+"unlock": 4
+},
+{
+"cite": [
+"DELFOSSE-NICKERSON -",
+"ARXIV 1709.06218 V1 ",
+"2017                "
+],
+"game": [
+"AFTER A SHIFT A     ",
+"UNION-FIND DECODER  ",
+"REPLAYS YOUR SPARKS.",
+"COMPUTED - NEVER    ",
+"SCRIPTED.           "
+],
+"label2": 0,
+"quote": [
+"IN ORDER TO BUILD A ",
+"LARGE SCALE QUANTUM ",
+"COMPUTER ONE MUST BE",
+"ABLE TO CORRECT     ",
+"ERRORS EXTREMELY    ",
+"FAST.               "
+],
+"title": "THE AUTOPILOT",
+"unlock": 10
+},
+{
+"cite": [
+"GOOGLE QUANTUM AI - ",
+"ARXIV 2408.13687 V1 ",
+"2024                "
+],
+"game": [
+"ABOVE SPEC FOR THE  ",
+"THIN WALL. BELOW THE",
+"D5 CROSSING FOR THIS",
+"DECODER - MEASURED. ",
+"LUCK EXISTS.        "
+],
+"label2": 0,
+"quote": [
+"THIS EXPONENTIAL    ",
+"SUPPRESSION ONLY    ",
+"OCCURS IF THE       ",
+"PHYSICAL ERROR RATE ",
+"IS BELOW A CRITICAL ",
+"THRESHOLD.          "
+],
+"title": "THE THRESHOLD",
+"unlock": 8
+},
+{
+"cite": [
+"PATCHWORK DESIGN    ",
+"RULE - THE ORACLE   ",
+"RULE                "
+],
+"game": [
+"THE CAT REACTS TO   ",
+"THE WEIGHT OF YOUR  ",
+"OWN COMMITTED       ",
+"PATCHES. CALM MEANS ",
+"SMALL FIXES.        "
+],
+"label2": 1,
+"quote": [
+"THE CAT NEVER READS ",
+"THE HIDDEN STATE.   ",
+"NOTHING ON SCREEN   ",
+"EVER DOES WHILE A   ",
+"RUN IS LIVE - THAT  ",
+"WOULD BE AN ORACLE. "
+],
+"title": "THE CAT",
+"unlock": 255
+},
+{
+"cite": [
+"THE TITLE SCREEN -  ",
+"PLAN GROUND RULE 1  ",
+"                    "
+],
+"game": [
+"THE TITLE CARD IS   ",
+"THE CONTRACT.       ",
+"COHERENT NOISE AND  ",
+"NON-CLIFFORD GATES  ",
+"ARE OUT.            "
+],
+"label2": 1,
+"quote": [
+"THIS CART EXACTLY   ",
+"SIMULATES PAULI AND ",
+"ERASURE NOISE ON    ",
+"REAL CODES. IT DOES ",
+"NOT EMULATE QUANTUM ",
+"HARDWARE.           "
+],
+"title": "THE HONESTY CARD",
+"unlock": 255
+},
+{
+"cite": [
+"AARONSON-GOTTESMAN -",
+"QUANT-PH 0406196 V1 ",
+"2004                "
+],
+"game": [
+"WHY THIS FITS IN A  ",
+"GAME BOY - AND WHY A",
+"GAME BOY IS NOT A   ",
+"QUANTUM COMPUTER.   ",
+"                    "
+],
+"label2": 0,
+"quote": [
+"A STABILIZER CIRCUIT",
+"... CAN BE SIMULATED",
+"EFFICIENTLY ON A    ",
+"CLASSICAL COMPUTER. ",
+"                    ",
+"                    "
+],
+"title": "GOTTESMAN-KNILL",
+"unlock": 255
+},
+{
+"cite": [
+"THIS CART - Z MASKS ",
+"PINNED VS THE       ",
+"REFERENCE SIM       "
+],
+"game": [
+"THIS WALL WRAPS -   ",
+"LEFT MEETS RIGHT. A ",
+"KILLER CRACK MUST   ",
+"LOOP ALL THE WAY    ",
+"AROUND.             "
+],
+"label2": 2,
+"quote": [
+"BOTH LOGICAL LOOPS  ",
+"ARE SCORED AT       ",
+"READOUT - THE MASKS ",
+"ARE PINNED VS THE   ",
+"REFERENCE SIM EVERY ",
+"BUILD.              "
+],
+"title": "THE TORUS",
+"unlock": 13
+},
+{
+"cite": [
+"YE-DELFOSSE - ARXIV ",
+"2503.22071 V3 2025  ",
+"                    "
+],
+"game": [
+"SAME TORUS - FEWER  ",
+"HELPERS. CHECKS     ",
+"ARRIVE IN WAVES     ",
+"SIZED BY THE ANCILLA",
+"BUDGET.             "
+],
+"label2": 0,
+"quote": [
+"...WE DESIGN        ",
+"SYNDROME EXTRACTION ",
+"CIRCUITS TAILORED TO",
+"OUR ION CHAIN       ",
+"MODEL...            ",
+"                    "
+],
+"title": "THE BUDGET",
+"unlock": 14
+},
+{
+"cite": [
+"THIS CART - DISTANCE",
+"PINS IN THE TEST    ",
+"SUITE               "
+],
+"game": [
+"SIXTEEN QUBITS - THE",
+"SAME DISTANCE AS THE",
+"BIG TORUS. ROTATING ",
+"THE LATTICE BUYS THE",
+"SAME WALL FOR LESS. "
+],
+"label2": 2,
+"quote": [
+"D IS 4 ON 16 QUBITS ",
+"- THE PIN SUITE     ",
+"BRUTE-FORCES EVERY  ",
+"CODE DISTANCE ON    ",
+"EACH REGEN.         ",
+"                    "
+],
+"title": "THE ROTATION",
+"unlock": 15
+},
+{
+"cite": [
+"PATCHWORK DESIGN    ",
+"RULE - THE RATE     ",
+"SCORE               "
+],
+"game": [
+"FOUR TENANTS BEHIND ",
+"ONE WALL. BANKING   ",
+"PAYS PER LIVING     ",
+"TENANT - BIG K ON   ",
+"SMALL N WINS.       "
+],
+"label2": 1,
+"quote": [
+"HEARTS ARE LOGICAL  ",
+"QUBITS. A TENANT    ",
+"FOUND DEAD AT       ",
+"READOUT STAYS DEAD. ",
+"                    ",
+"                    "
+],
+"title": "RATE NOT SIZE",
+"unlock": 16
+},
+{
+"cite": [
+"THAM ET AL - ARXIV  ",
+"2606.06455 V1 2026  ",
+"                    "
+],
+"game": [
+"FOUR BLOCKS OF FOUR ",
+"- A DETECTOR CODE   ",
+"STACKED ON ITSELF   ",
+"UNTIL IT CORRECTS.  ",
+"                    "
+],
+"label2": 0,
+"quote": [
+"...NINE QUANTUM     ",
+"ERROR-CORRECTING    ",
+"CODES WITH STARKLY  ",
+"DIFFERENT QUBIT     ",
+"CONNECTIVITY        ",
+"REQUIREMENTS...     "
+],
+"title": "TWO BY TWO",
+"unlock": 16
+},
+{
+"cite": [
+"PATCHWORK DESIGN    ",
+"RULE - THE MPP HOOK ",
+"                    "
+],
+"game": [
+"TWO WALLS MERGE FOR ",
+"ONE ROUND. THE SEAM ",
+"READS Z TIMES Z -   ",
+"PLUS 1 MEANS THE    ",
+"TENANTS AGREE.      "
+],
+"label2": 1,
+"quote": [
+"THE BANNER IS THE   ",
+"RAW OUTCOME OF A    ",
+"REAL GENERALIZED    ",
+"MEASUREMENT - NEVER ",
+"A SCRIPT.           ",
+"                    "
+],
+"title": "THE SEAM",
+"unlock": 17
+},
+{
+"cite": [
+"SEE APPX E - ARXIV  ",
+"2606.06455 V1 2026  ",
+"                    "
+],
+"game": [
+"P COUNTS HERALDED   ",
+"ROUNDS. THE DEMO    ",
+"FLAGGED 17.8 TO 74.8",
+"PERCENT. YOU PATCH  ",
+"INSTEAD.            "
+],
+"label2": 1,
+"quote": [
+"HERALDS ARE FREE    ",
+"INFORMATION. THE    ",
+"PRICE OF A LOSS IS  ",
+"PAID IN CLOCK -     ",
+"NEVER HIDDEN DICE.  ",
+"                    "
+],
+"title": "THE P METER",
+"unlock": 18
+},
+{
+"cite": [
+"YE-DELFOSSE - ARXIV ",
+"2503.22071 V3 2025  ",
+"                    "
+],
+"game": [
+"EVERY QUBIT SITS IN ",
+"FIVE CHECKS. DAMAGE ",
+"PAINTS REPEATING    ",
+"PATTERNS - PATCH BY ",
+"SHAPE.              "
+],
+"label2": 0,
+"quote": [
+"WE CONSTRUCT NEW    ",
+"QUANTUM CODES THAT  ",
+"OUTPERFORM THE      ",
+"STATE-OF-THE-ART FOR",
+"CHAINS OF ABOUT 50  ",
+"QUBITS.             "
+],
+"title": "THE PATTERNS",
+"unlock": 19
+},
+{
+"cite": [
+"THIS CART - THE     ",
+"GOLDEN CORPUS PINS  ",
+"ALL SIX CODES       "
+],
+"game": [
+"18 THEN 24 THEN 30  ",
+"QUBITS - SAME RECIPE",
+"THICKER WALL. D     ",
+"CLIMBS 3 4 5.       ",
+"                    "
+],
+"label2": 2,
+"quote": [
+"ALL THREE BB WALLS  ",
+"RUN FULL CIRCUITS ON",
+"THIS CART - EACH    ",
+"PINNED TO THE       ",
+"REFERENCE SIM.      ",
+"                    "
+],
+"title": "THE LADDER",
+"unlock": 20
+},
+{
+"cite": [
+"YE-DELFOSSE - ARXIV ",
+"2512.07057 V2 2025  ",
+"                    "
+],
+"game": [
+"THE SHIMMER MARKS   ",
+"QUBITS THE SCANNER  ",
+"KEEPS FLIPPING. BP  ",
+"STALLS THERE - YOU  ",
+"ARE THE UPGRADE.    "
+],
+"label2": 0,
+"quote": [
+"...A BEAM SEARCH    ",
+"HEURISTIC GUIDED BY ",
+"BELIEF              ",
+"PROPAGATION...      ",
+"                    ",
+"                    "
+],
+"title": "THE OSCILLATION",
+"unlock": 21
+},
+{
+"cite": [
+"THIS CART - LOOKUP  ",
+"AUTOPILOT PINNED VS ",
+"THE ORACLE          "
+],
+"game": [
+"ONE RING - TWO      ",
+"TENANTS. EVERY CHECK",
+"TOUCHES FOUR QUBITS ",
+"ON TWO STRANDS.     ",
+"                    "
+],
+"label2": 2,
+"quote": [
+"ITS AUTOPILOT IS AN ",
+"EXACT MIN-WEIGHT    ",
+"TABLE - PERFECT     ",
+"INSIDE HALF THE     ",
+"DISTANCE.           ",
+"                    "
+],
+"title": "THE TWIN",
+"unlock": 22
+},
+{
+"cite": [
+"THAM ET AL - ARXIV  ",
+"2606.06455 V1 2026  ",
+"                    "
+],
+"game": [
+"THE WALL NOW        ",
+"OUTLIVES ITS OWN    ",
+"BRICKS - CROSSED ON ",
+"REAL IONS IN 2026   ",
+"WITH THESE CODES.   "
+],
+"label2": 0,
+"quote": [
+"...QUBIT LIFETIMES  ",
+"COMPARABLE TO OR    ",
+"SLIGHTLY EXCEEDING  ",
+"THAT OF OUR         ",
+"TRAPPED-ION QUBITS. ",
+"                    "
+],
+"title": "BREAKEVEN",
+"unlock": 23
+},
+{
+"cite": [
+"THIS CART VS ARXIV  ",
+"2606.06455 TABLE 3  ",
+"                    "
+],
+"game": [
+"THE PAPERS TABLE    ",
+"SAYS D IS 4. ITS OWN",
+"TEXT SAYS 5. SOMEONE",
+"HAD TO CHECK.       ",
+"                    "
+],
+"label2": 2,
+"quote": [
+"EXHAUSTIVE SEARCH   ",
+"FINDS MINIMUM WEIGHT",
+"5. THE PIN SUITE    ",
+"RE-ASSERTS IT EVERY ",
+"REGEN.              ",
+"                    "
+],
+"title": "THE ERRATUM",
+"unlock": 23
+},
+{
+"cite": [
+"YE-DELFOSSE - ARXIV ",
+"2503.22071 V3 2025  ",
+"                    "
+],
+"game": [
+"A 48 QUBIT BB5 WALL ",
+"- SIMULATED NOT     ",
+"BUILT - MATCHES D7  ",
+"SURFACE AT A QUARTER",
+"THE QUBITS.         "
+],
+"label2": 0,
+"quote": [
+"...THE DISTANCE-7   ",
+"SURFACE CODE BUT    ",
+"USING FOUR TIMES    ",
+"FEWER PHYSICAL      ",
+"QUBITS PER LOGICAL  ",
+"QUBIT.              "
+],
+"title": "THE HORIZON",
+"unlock": 23
+},
+{
+"cite": [
+"THIS CART - MSQ     ",
+"TRIPWIRE + REFSIM   ",
+"DIFF                "
+],
+"game": [
+"TWO PLAYERS SHARE   ",
+"TWO EBITS. EVERY ROW",
+"AND COLUMN AGREES - ",
+"EVERY ROUND. XOR IS ",
+"THE WHOLE TRICK.    "
+],
+"label2": 2,
+"quote": [
+"EVERY LINE PARITY   ",
+"AND EVERY MEETING   ",
+"CELL IS CHECKED ON  ",
+"CART. A MISMATCH    ",
+"HALTS THE ROM.      ",
+"                    "
+],
+"title": "THE SQUARE",
+"unlock": 24
+},
+{
+"cite": [
+"THIS CART - FLEX 127",
+"DIFFERENTIAL IN THE ",
+"SUITE               "
+],
+"game": [
+"THE SCREEN IS THE   ",
+"RAW TABLEAU - A 127 ",
+"QUBIT GHZ STATE HELD",
+"IN 8 KIB OF RAM. A  ",
+"COLLAPSES IT.       "
+],
+"label2": 2,
+"quote": [
+"PLANES AND PHASES   ",
+"MATCH THE REFERENCE ",
+"SIM BIT FOR BIT     ",
+"BEFORE AND AFTER    ",
+"EVERY MEASUREMENT.  ",
+"                    "
+],
+"title": "THE FLEX",
+"unlock": 25
+},
+{
+"cite": [
+"PATCHWORK DESIGN    ",
+"RULE - GROUND RULE 5",
+"                    "
+],
+"game": [
+"B ON THE MENU PINS A",
+"SEED. SAME SEED -   ",
+"SAME STORM. SHARE IT",
+"AND RACE THE SAME   ",
+"SHIFT.              "
+],
+"label2": 1,
+"quote": [
+"ENTROPY ONLY EVER   ",
+"PICKS A SEED. IT    ",
+"NEVER ENTERS A RUN -",
+"EVERY SHIFT IS      ",
+"REPLAYABLE.         ",
+"                    "
+],
+"title": "DAILY SEED",
+"unlock": 255
+},
+{
+"cite": [
+"NOT AFFILIATED WITH ",
+"OR ENDORSED BY ANY  ",
+"LAB OR VENDOR.      "
+],
+"game": [
+"SOURCES FOR ALL     ",
+"THREE ACTS - EACH   ",
+"CARD CARRIES ITS    ",
+"OWN.                ",
+"                    "
+],
+"label2": 1,
+"quote": [
+"SURFACE CODES -     ",
+"KITAEV. DECODER -   ",
+"DELFOSSE-NICKERSON. ",
+"THRESHOLD - WILLOW. ",
+"ENGINE - CHP.       ",
+"                    "
+],
+"title": "CREDITS",
+"unlock": 255
+}
+]
+}

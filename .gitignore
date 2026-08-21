@@ -1,0 +1,17 @@
+# Build outputs (ROM + objects)
+/bin/
+/obj/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+dist/
+
+# Harness working artifacts (goldens are regenerated; only hashes are tracked)
+/build/
+
+# macOS
+.DS_Store

@@ -1,0 +1,700 @@
+{
+"beats": [
+{
+"arg": 2,
+"cap": 8,
+"cfg": 0,
+"done": 0,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 800,
+"pace": 0,
+"pre": 2,
+"q16": 0,
+"rounds": 8,
+"seed": 708
+},
+{
+"arg": 2,
+"cap": 8,
+"cfg": 0,
+"done": 0,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 800,
+"pace": 0,
+"pre": 2,
+"q16": 0,
+"rounds": 8,
+"seed": 147
+},
+{
+"arg": 12,
+"cap": 8,
+"cfg": 0,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 500,
+"pace": 88,
+"pre": 0,
+"q16": 0,
+"rounds": 16,
+"seed": 5
+},
+{
+"arg": 14,
+"cap": 8,
+"cfg": 0,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 0,
+"pace": 88,
+"pre": 0,
+"q16": 900,
+"rounds": 18,
+"seed": 28
+},
+{
+"arg": 7,
+"cap": 12,
+"cfg": 1,
+"done": 0,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 800,
+"pace": 88,
+"pre": 5,
+"q16": 400,
+"rounds": 30,
+"seed": 0
+},
+{
+"arg": 0,
+"cap": 8,
+"cfg": 0,
+"done": 2,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 400,
+"pace": 72,
+"pre": 0,
+"q16": 400,
+"rounds": 40,
+"seed": 5
+}
+],
+"boss": {
+"beats": [
+{
+"arg": 0,
+"cap": 8,
+"cfg": 0,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 330,
+"pace": 80,
+"pre": 0,
+"q16": 330,
+"rounds": 48,
+"seed": 1
+},
+{
+"arg": 0,
+"cap": 14,
+"cfg": 1,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 330,
+"pace": 88,
+"pre": 0,
+"q16": 330,
+"rounds": 64,
+"seed": 1
+}
+],
+"d3_rounds": 48,
+"d5_rounds": 64,
+"p16": 330,
+"seed": 1,
+"texts": [
+[
+"NOISE ABOVE SPEC.   ",
+"HOLD THE THIN WALL. "
+],
+[
+"SAME SEED SAME NOISE",
+"THE WALL IS THICKER."
+]
+]
+},
+"boss_bundle_len": 117,
+"bundle_len": 349,
+"densities": {
+"bb18 p=q=131": 0.988,
+"bb24 p=q=131": 1.495,
+"bb30 p=q=98": 1.517,
+"c16 p=q=131": 0.738,
+"d3 p=197 e=1311": 0.525,
+"d3 p=197 q=1311": 0.827,
+"d3 p=q=197": 0.331,
+"d3 p=q=330 boss": 0.57,
+"d5 p=q=197": 1.127,
+"d5 p=q=328": 1.75,
+"d5 p=q=330 boss": 1.746,
+"d5 p=q=655": 3.166,
+"gb16 p=q=197": 1.109,
+"gb26 p=q=66 e=1311": 1.592,
+"rt16 p=q=197": 1.155,
+"surg p=q=131": 0.663,
+"toric18b4 p=q=131": 1.039,
+"toric18b6 p=q=131": 0.857
+},
+"levels": [
+{
+"act": 1,
+"beat": null,
+"flags": 0,
+"game": 2,
+"name": "TUTORIAL    "
+},
+{
+"act": 1,
+"beat": {
+"arg": 0,
+"cap": 8,
+"cfg": 0,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 197,
+"pace": 88,
+"pre": 0,
+"q16": 197,
+"rounds": 120,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "SHIFT D3    "
+},
+{
+"act": 1,
+"beat": {
+"arg": 0,
+"cap": 8,
+"cfg": 0,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 197,
+"pace": 88,
+"pre": 0,
+"q16": 1311,
+"rounds": 120,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "LIES D3     "
+},
+{
+"act": 1,
+"beat": {
+"arg": 0,
+"cap": 8,
+"cfg": 0,
+"done": 1,
+"e16": 1311,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 197,
+"pace": 88,
+"pre": 0,
+"q16": 197,
+"rounds": 120,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "ERASE D3    "
+},
+{
+"act": 1,
+"beat": {
+"arg": 0,
+"cap": 12,
+"cfg": 1,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 328,
+"pace": 88,
+"pre": 0,
+"q16": 328,
+"rounds": 150,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "SHIFT D5    "
+},
+{
+"act": 1,
+"beat": {
+"arg": 0,
+"cap": 8,
+"cfg": 0,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 330,
+"pace": 80,
+"pre": 0,
+"q16": 330,
+"rounds": 48,
+"seed": 1
+},
+"flags": 0,
+"game": 3,
+"name": "CALIBRATION "
+},
+{
+"act": 1,
+"beat": {
+"arg": 0,
+"cap": 12,
+"cfg": 1,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 328,
+"pace": 88,
+"pre": 0,
+"q16": 328,
+"rounds": 150,
+"seed": 0
+},
+"flags": 2,
+"game": 1,
+"name": "BLIND D5    "
+},
+{
+"act": 2,
+"beat": {
+"arg": 0,
+"cap": 10,
+"cfg": 2,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 131,
+"pace": 96,
+"pre": 0,
+"q16": 131,
+"rounds": 60,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "TORIC B6    "
+},
+{
+"act": 2,
+"beat": {
+"arg": 0,
+"cap": 10,
+"cfg": 3,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 131,
+"pace": 96,
+"pre": 0,
+"q16": 131,
+"rounds": 60,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "TORIC B4    "
+},
+{
+"act": 2,
+"beat": {
+"arg": 0,
+"cap": 10,
+"cfg": 4,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 197,
+"pace": 96,
+"pre": 0,
+"q16": 197,
+"rounds": 60,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "RT 16       "
+},
+{
+"act": 2,
+"beat": {
+"arg": 0,
+"cap": 10,
+"cfg": 5,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 131,
+"pace": 96,
+"pre": 0,
+"q16": 131,
+"rounds": 60,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "FOUR TENANTS"
+},
+{
+"act": 2,
+"beat": {
+"arg": 8,
+"cap": 10,
+"cfg": 6,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 0,
+"mrnd": 0,
+"p16": 131,
+"pace": 88,
+"pre": 0,
+"q16": 131,
+"rounds": 12,
+"seed": 1
+},
+"flags": 0,
+"game": 2,
+"name": "THE SEAM    "
+},
+{
+"act": 3,
+"beat": {
+"arg": 0,
+"cap": 12,
+"cfg": 7,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 131,
+"pace": 100,
+"pre": 0,
+"q16": 131,
+"rounds": 56,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "PATTERNS    "
+},
+{
+"act": 3,
+"beat": {
+"arg": 0,
+"cap": 12,
+"cfg": 8,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 131,
+"pace": 104,
+"pre": 0,
+"q16": 131,
+"rounds": 56,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "BB24 SHIFT  "
+},
+{
+"act": 3,
+"beat": {
+"arg": 0,
+"cap": 14,
+"cfg": 9,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 98,
+"pace": 112,
+"pre": 0,
+"q16": 98,
+"rounds": 48,
+"seed": 0
+},
+"flags": 4,
+"game": 1,
+"name": "TRIAGE      "
+},
+{
+"act": 3,
+"beat": {
+"arg": 0,
+"cap": 12,
+"cfg": 10,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 197,
+"pace": 100,
+"pre": 0,
+"q16": 197,
+"rounds": 56,
+"seed": 0
+},
+"flags": 0,
+"game": 1,
+"name": "THE TWIN    "
+},
+{
+"act": 3,
+"beat": {
+"arg": 0,
+"cap": 12,
+"cfg": 11,
+"done": 1,
+"e16": 1311,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 66,
+"pace": 112,
+"pre": 0,
+"q16": 66,
+"rounds": 48,
+"seed": 0
+},
+"flags": 4,
+"game": 1,
+"name": "BREAKEVEN   "
+},
+{
+"act": 4,
+"beat": {
+"arg": 0,
+"cap": 0,
+"cfg": 0,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 0,
+"pace": 0,
+"pre": 0,
+"q16": 0,
+"rounds": 2,
+"seed": 0
+},
+"flags": 0,
+"game": 4,
+"name": "MAGIC SQUARE"
+},
+{
+"act": 4,
+"beat": {
+"arg": 0,
+"cap": 0,
+"cfg": 0,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 1,
+"mrnd": 0,
+"p16": 0,
+"pace": 0,
+"pre": 0,
+"q16": 0,
+"rounds": 2,
+"seed": 0
+},
+"flags": 0,
+"game": 5,
+"name": "FLEX 127    "
+}
+],
+"seam": {
+"beats": [
+{
+"arg": 8,
+"cap": 10,
+"cfg": 6,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 0,
+"mrnd": 0,
+"p16": 131,
+"pace": 88,
+"pre": 0,
+"q16": 131,
+"rounds": 12,
+"seed": 1
+},
+{
+"arg": 10,
+"cap": 10,
+"cfg": 6,
+"done": 1,
+"e16": 0,
+"midx": 0,
+"mode": 0,
+"mrnd": 6,
+"p16": 131,
+"pace": 88,
+"pre": 0,
+"q16": 131,
+"rounds": 14,
+"seed": 2
+},
+{
+"arg": 10,
+"cap": 10,
+"cfg": 6,
+"done": 1,
+"e16": 0,
+"midx": 1,
+"mode": 0,
+"mrnd": 6,
+"p16": 131,
+"pace": 88,
+"pre": 0,
+"q16": 131,
+"rounds": 14,
+"seed": 3
+},
+{
+"arg": 0,
+"cap": 10,
+"cfg": 6,
+"done": 2,
+"e16": 0,
+"midx": 0,
+"mode": 0,
+"mrnd": 6,
+"p16": 131,
+"pace": 88,
+"pre": 0,
+"q16": 131,
+"rounds": 16,
+"seed": 4
+}
+],
+"masks": [
+[
+0,
+3591
+],
+[
+73,
+0
+]
+],
+"texts": [
+[
+"TWO WALLS - TWO     ",
+"TENANTS. HOLD BOTH. "
+],
+[
+"ROUND 6 - THE WALLS ",
+"MERGE. WATCH SEAM.  "
+],
+[
+"NOW READ ONE TENANT ",
+"ALONE. X OF PATCH A."
+],
+[
+"RE-MERGE. THEN START",
+"BANKS BOTH TENANTS. "
+]
+]
+},
+"seam_bundle_len": 265,
+"texts": [
+[
+"PATCH THE DAMAGE    ",
+"PRESS A THEN A AGAIN"
+],
+[
+"THE EDGE COUNTS AS A",
+"PARTNER. PATCH IT.  "
+],
+[
+"MORE DAMAGE COMING. ",
+"KEEP THE WALL CLEAN "
+],
+[
+"SOME SPARKS LIE.    ",
+"HOLD SELECT. WAIT.  "
+],
+[
+"NEVER LET A CRACK   ",
+"TOUCH BOTH WALLS.   "
+],
+[
+"YOUR SHIFT. START   ",
+"BANKS A CLEAN WALL. "
+]
+]
+}
