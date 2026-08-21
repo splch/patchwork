@@ -1,0 +1,52 @@
+# Publish the ROM as a GitHub release on version tags (v*).
+# The remote tracks only the ROM-build set (no test harness), so this
+# workflow builds, checks reproducibility (clean rebuilds must be
+# byte-identical, PLAN.md sec 8), and attaches the ROM + checksum.
+# workflow_dispatch is the dry run: build + artifact, no release.
+name: release
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rom:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install RGBDS 1.0.3
+        run: |
+          curl -fsSL -o rgbds.tar.xz \
+            https://github.com/gbdev/rgbds/releases/download/v1.0.3/rgbds-linux-x86_64.tar.xz
+          mkdir rgbds-dist && tar -xf rgbds.tar.xz -C rgbds-dist
+          sudo install $(find rgbds-dist -maxdepth 2 -type f -perm -u+x -name 'rgb*') /usr/local/bin/
+          rgbasm --version
+      - name: Build twice, require byte-identical ROMs
+        run: |
+          make
+          sha256sum bin/patchwork.gb > first.sha256
+          make clean && make
+          sha256sum bin/patchwork.gb > second.sha256
+          diff first.sha256 second.sha256
+          cp first.sha256 bin/patchwork.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: patchwork-rom
+          path: |
+            bin/patchwork.gb
+            bin/patchwork.sha256
+            bin/patchwork.sym
+            bin/patchwork.map
+      - name: Publish release
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            --verify-tag \
+            --title "PATCHWORK $GITHUB_REF_NAME" \
+            --notes "Built with RGBDS 1.0.3; clean rebuilds verified byte-identical. ROM SHA-256: $(cut -d' ' -f1 bin/patchwork.sha256)" \
+            bin/patchwork.gb bin/patchwork.sha256
